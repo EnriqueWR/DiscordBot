@@ -1,4 +1,4 @@
-import * as tokenFile from './tokenFile';
+const tokenFile = require('./tokenFile');
 const Discord = require('discord.js');
 
 const bot = new Discord.Client();
